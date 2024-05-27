@@ -64,6 +64,7 @@ let render_search () =
               ; "placeholder-text-slate-400"
               ; "text-white"
               ; "px-4"
+              ; "py-1"
               ; "rounded-xl"
               ; "bg-slate-800"
               ; "ring-slate-700" ]
