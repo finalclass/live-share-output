@@ -98,7 +98,16 @@ let render_player () =
           ; a_float_value 32.0 ]
         [txt "abc"]
     ; div ~a:[a_class ["flex"; "items-center"]] [span [txt "12s / 58s"]]
-    ; player_button "play"
+    ; button
+        ~a:
+          [ a_class
+              [ "bg-slate-700"
+              ; "text-slate-400"
+              ; "py-1"
+              ; "px-3"
+              ; "hover:bg-slate-500"
+              ; "rounded-xl" ] ]
+        [icon "play"]
     ; player_button "arrows-rotate" ]
 
 let logo () =
