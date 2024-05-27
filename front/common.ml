@@ -110,8 +110,12 @@ let layout content =
        ; link ~rel:[`Stylesheet] ~href:"/fontawesome/css/solid.css" ()
        ; link ~rel:[`Stylesheet] ~href:"/fontawesome/css/regular.css" ()
        ; link ~rel:[`Stylesheet] ~href:"/static/style.css" ()
-; link ~rel:[`Icon] ~href:"/static/favicon.icon"; ~a:[a_rel_type "image/x-icon"] ()
-(* <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon"> *)
+       ; link
+           ~rel:[`Icon]
+           ~href:"/static/favicon.icon"
+           ~a:[a_rel_type "image/x-icon"]
+           ()
+         (* <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon"> *)
        ; script ~a:[a_src "/static/htmx-1.9.12.min.js"] (txt "") ] )
     (body
        ~a:[a_class ["bg-slate-900"; "text-slate-400"; "font-inter"]]
