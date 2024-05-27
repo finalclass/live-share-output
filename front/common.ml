@@ -86,7 +86,7 @@ let logo () =
         ~a:[a_href "/"; a_title "Theos Logos"]
         [ img
             ~alt:"Theos Logos logo"
-            ~src:"/static/logo.png"
+            ~src:"/static/logoTXT.png"
             ~a:[a_class ["w-8"]]
             () ] ]
 
