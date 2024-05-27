@@ -34,7 +34,7 @@ let render_avatar () =
           ; "text-sm"
           ; "rounded-full"
           ; "border-2"
-          ; "border-neutral-200" ] ]
+          ; "border-slate-500" ] ]
     [txt "JK"]
 
 let player_button ?a icon_name =
