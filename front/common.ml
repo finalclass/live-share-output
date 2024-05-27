@@ -46,7 +46,7 @@ let player_button ?a icon_name =
             [ "bg-slate-700"
             ; "text-slate-400"
             ; "py-1"
-            ; "px-1"
+            ; "px-2"
             ; "hover:bg-slate-500"
             ; "rounded" ] ]
       @ (a_attr |> Option.value ~default:[]) )
