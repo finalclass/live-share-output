@@ -48,7 +48,7 @@ let player_button ?a icon_name =
             ; "py-1"
             ; "px-3"
             ; "hover:bg-slate-500"
-            ; "rounded" ] ]
+            ; "rounded-xl" ] ]
       @ (a_attr |> Option.value ~default:[]) )
     [icon icon_name]
 
