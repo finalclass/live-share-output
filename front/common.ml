@@ -119,7 +119,6 @@ let layout content =
                  [ "sticky"
                  ; "top-0"
                  ; "z-50"
-                 ; "bg-white"
                  ; "bg-transparent"
                  ; "flex"
                  ; "gap-1"
