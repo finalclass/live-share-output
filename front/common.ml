@@ -78,9 +78,8 @@ let render_search () =
                 ; "py-1"
                 ; "px-3"
                 ; "hover:bg-slate-500"
-                ; "rounded-xl" ] ]
-          @ (a_attr |> Option.value ~default:[]) )
-        [icon icon_name] ]
+                ; "rounded-xl" ] ] )
+        ["search" ]
 
 let render_player () =
   let open Tyxml.Html in
