@@ -136,7 +136,7 @@ let layout content =
                ; button
                    ~a:
                      [ a_class
-                         [ "bg-orange-500"
+                         [ "bg-slate-700"
                          ; "px-5"
                          ; "py-1"
                          ; "rounded"
