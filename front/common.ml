@@ -72,15 +72,14 @@ let render_search () =
         ()
     ; button
         ~a:
-          ( [ a_class
-                [ "bg-slate-700"
-                ; "text-slate-400"
-                ; "py-1"
-                ; "px-3"
-                ; "hover:bg-slate-500"
-                ; "rounded-xl" ] ] )
-        [icon "search"]
-)
+          [ a_class
+              [ "bg-slate-700"
+              ; "text-slate-400"
+              ; "py-1"
+              ; "px-3"
+              ; "hover:bg-slate-500"
+              ; "rounded-xl" ] ]
+        [icon "search"] ]
 
 let render_player () =
   let open Tyxml.Html in
