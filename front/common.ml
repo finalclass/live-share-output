@@ -55,7 +55,7 @@ let player_button ?a icon_name =
 let render_search () =
   let open Tyxml.Html in
   form
-    ~a:[a_class ["flex"; "items-center"; "gap-1"]]
+    ~a:[a_class ["flex"; "items-center"]]
     [ input
         ~a:
           [ a_input_type `Search
