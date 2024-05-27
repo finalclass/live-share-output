@@ -79,7 +79,7 @@ let render_search () =
                 ; "px-3"
                 ; "hover:bg-slate-500"
                 ; "rounded-xl" ] ] )
-        "search"
+        [icon "search"]
 
 let render_player () =
   let open Tyxml.Html in
