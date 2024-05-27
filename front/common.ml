@@ -138,6 +138,7 @@ let layout content =
                  ; "[@supports(backdrop-filter:blur(0))]:bg-slate-900/75"
                  ; "backdrop-blur"
                  ; "py-5"
+                 ; "px-3"
                  ; "flex"
                  ; "gap-2"
                  ; "items-center"
