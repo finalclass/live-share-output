@@ -119,7 +119,6 @@ let layout content =
                  [ "sticky"
                  ; "top-0"
                  ; "z-50"
-                 ; "shadow-md"
                  ; "shadow-slate-900/5"
                  ; "flex"
                  ; "gap-1"
