@@ -140,11 +140,11 @@ let layout content =
                  ; "py-5"
                  ; "px-3"
                  ; "flex"
-                 ; "gap-2"
+                 ; "gap-3"
                  ; "items-center"
                  ; "justify-between" ] ]
            [ div
-               ~a:[a_class ["flex"; "gap-2"; "items-center"]]
+               ~a:[a_class ["flex"; "gap-3"; "items-center"]]
                [ logo ()
                ; button
                    ~a:
