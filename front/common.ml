@@ -27,7 +27,7 @@ let render_avatar () =
   div
     ~a:
       [ a_class
-          [ "bg-pink-500"
+          [ "bg-slate-700"
           ; "px-2"
           ; "text-center"
           ; "py-1"
