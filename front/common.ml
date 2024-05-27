@@ -102,7 +102,7 @@ let render_player () =
         ~a:
           [ a_class
               [ "bg-yellow-500"
-              ; "text-slate-400"
+              ; "text-slate-700"
               ; "py-1"
               ; "px-3"
               ; "hover:bg-slate-500"
