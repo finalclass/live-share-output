@@ -24,7 +24,7 @@ let render (chapter : Back.TranslationsManager.chapter) =
         ~a:[a_class ["m-2"]]
         ( chapter.verses
         |> List.mapi ~f:(fun index (v : Back.TranslationsManager.verse) ->
-               li [txt ((index |> Int.to_string) ^ " " ^ v.text)] ) ) ]
+               li [txt ((index + 1 |> Int.to_string) ^ " " ^ v.text)] ) ) ]
 
 let routes ~(ctx : Ctx.t) (app : Blossom.t) =
   app
