@@ -119,7 +119,7 @@ let layout content =
                  [ "sticky"
                  ; "top-0"
                  ; "z-50"
-                 ; "bg-transparent"
+                 ; "bg-slate-900/95"
                  ; "shadow-md"
                  ; "shadow-slate-900/5"
                  ; "[@supports(backdrop-filter:blur(0))]:bg-slate-900/75"
