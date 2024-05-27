@@ -112,7 +112,7 @@ let layout content =
        ; link ~rel:[`Stylesheet] ~href:"/static/style.css" ()
        ; script ~a:[a_src "/static/htmx-1.9.12.min.js"] (txt "") ] )
     (body
-       ~a:[a_class ["bg-slate-900"]]
+       ~a:[a_class ["bg-slate-900"; "text-slate-400"]]
        [ nav
            ~a:
              [ a_class
