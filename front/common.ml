@@ -139,7 +139,7 @@ let layout content =
                  ; "backdrop-blur"
                  ; "py-5"
                  ; "flex"
-                 ; "gap-1"
+                 ; "gap-2"
                  ; "items-center"
                  ; "justify-between" ] ]
            [ div
