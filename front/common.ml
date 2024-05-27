@@ -70,7 +70,17 @@ let render_search () =
               ; "ring-slate-700" ]
           ; a_placeholder "szukaj..." ]
         ()
-    ; player_button "search" ]
+    ; button
+        ~a:
+          ( [ a_class
+                [ "bg-slate-700"
+                ; "text-slate-400"
+                ; "py-1"
+                ; "px-3"
+                ; "hover:bg-slate-500"
+                ; "rounded-xl" ] ]
+          @ (a_attr |> Option.value ~default:[]) )
+        [icon icon_name] ]
 
 let render_player () =
   let open Tyxml.Html in
