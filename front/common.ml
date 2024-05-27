@@ -139,7 +139,7 @@ let layout content =
                          ; "px-5"
                          ; "py-1"
                          ; "rounded"
-                         ; "hover:bg-slate-300" ] ]
+                         ; "hover:bg-slate-500" ] ]
                    [txt "Rdz"]
                ; render_player () ]
            ; div
