@@ -59,7 +59,7 @@ let render_search () =
     [ input
         ~a:
           [ a_input_type `Search
-          ; a_class ["rounded"; "px-2"; "py-1"]
+          ; a_class ["outline-none"; "placeholder-text-slate-400"; "text-white"]
           ; a_placeholder "szukaj..." ]
         ()
     ; player_button "search" ]
