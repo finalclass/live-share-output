@@ -29,7 +29,7 @@ let render_avatar () =
       [ a_class
           [ "bg-slate-700"
           ; "px-2"
-          ; "text-center"
+          ; "text-center" "text-slate-300"
           ; "py-1"
           ; "text-sm"
           ; "rounded-full"
