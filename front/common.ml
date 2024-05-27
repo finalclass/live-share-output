@@ -158,6 +158,6 @@ let layout content =
                    [txt "Rdz"]
                ; render_player () ]
            ; div
-               ~a:[a_class ["flex"; "gap-1"; "items-center"]]
+               ~a:[a_class ["flex"; "gap-3"; "items-center"]]
                [render_search (); player_button "question"; render_avatar ()] ]
        ; main content ] )
