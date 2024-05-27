@@ -43,7 +43,12 @@ let player_button ?a icon_name =
   button
     ~a:
       ( [ a_class
-            ["bg-slate-700"; "py-1"; "px-1"; "hover:bg-slate-500"; "rounded"] ]
+            [ "bg-slate-700"
+            ; "text-slate-400"
+            ; "py-1"
+            ; "px-1"
+            ; "hover:bg-slate-500"
+            ; "rounded" ] ]
       @ (a_attr |> Option.value ~default:[]) )
     [icon icon_name]
 
@@ -136,6 +141,7 @@ let layout content =
                    ~a:
                      [ a_class
                          [ "bg-slate-700"
+                         ; "text-slate-400"
                          ; "px-5"
                          ; "py-1"
                          ; "rounded"
