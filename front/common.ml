@@ -143,7 +143,7 @@ let layout content =
                  ; "items-center"
                  ; "justify-between" ] ]
            [ div
-               ~a:[a_class ["flex"; "gap-1"; "items-center"]]
+               ~a:[a_class ["flex"; "gap-2"; "items-center"]]
                [ logo ()
                ; button
                    ~a:
