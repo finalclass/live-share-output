@@ -718,6 +718,11 @@ video {
   background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
 .\[\&\:\:-webkit-progress-bar\]\:bg-zinc-200::-webkit-progress-bar {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
