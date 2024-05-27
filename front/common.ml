@@ -122,6 +122,7 @@ let layout content =
                  ; "bg-transparent"
                  ; "shadow-md"
                  ; "shadow-slate-900/5"
+                 ; "[@supports(backdrop-filter:blur(0))]:bg-slate-900/75"
                  ; "flex"
                  ; "gap-1"
                  ; "items-center"

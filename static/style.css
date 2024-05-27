@@ -707,3 +707,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
+
+@supports(backdrop-filter:blur(0)) {
+  .\[\@supports\(backdrop-filter\:blur\(0\)\)\]\:bg-slate-900\/75 {
+    background-color: rgb(15 23 42 / 0.75);
+  }
+}
