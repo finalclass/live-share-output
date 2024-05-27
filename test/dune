@@ -1,0 +1,13 @@
+(library
+ (name test)
+ (inline_tests)
+ (libraries back surrealdb eio_main ctx yojson)
+ (modules 
+   bible_access_test
+   audio_access_test
+   interlinear_bible_access
+   ctx_helper
+ )
+ (preprocess
+  (pps ppx_inline_test ppx_assert))
+)

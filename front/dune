@@ -1,0 +1,10 @@
+(library
+ (name front)
+ (flags :standard -w -27)
+ (modules
+   front
+   reader
+   common
+ )
+ (libraries back base eio_main blossom ctx tyxml magic-mime)
+ )

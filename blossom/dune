@@ -1,0 +1,5 @@
+(library
+ (name blossom)
+ (libraries cohttp-eio eio_main base uri yojson ppx_deriving_yojson.runtime)
+ (preprocess
+  (pps ppx_deriving_yojson)))

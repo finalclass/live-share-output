@@ -1,0 +1,4 @@
+(executable
+ (public_name theos_logos)
+ (name main)
+ (libraries front))

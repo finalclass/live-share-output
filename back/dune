@@ -1,0 +1,15 @@
+(library
+ (name back)
+ (libraries ctx eio eio_main)
+ (modules
+   back 
+   address 
+   translations_manager
+   gamification_engine
+   search_engine
+   bible_access
+   interlinear_bible_access
+   user_access
+   audio_access
+   testament)
+)
