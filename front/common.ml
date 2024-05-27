@@ -120,6 +120,8 @@ let layout content =
                  ; "top-0"
                  ; "z-50"
                  ; "bg-transparent"
+                 ; "shadow-md"
+                 ; "shadow-slate-900/5"
                  ; "flex"
                  ; "gap-1"
                  ; "items-center"
