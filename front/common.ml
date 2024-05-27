@@ -101,7 +101,7 @@ let render_player () =
     ; button
         ~a:
           [ a_class
-              [ "bg-gold-500"
+              [ "bg-amber-500"
               ; "text-slate-400"
               ; "py-1"
               ; "px-3"
