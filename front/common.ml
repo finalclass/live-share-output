@@ -118,7 +118,8 @@ let layout content =
              [ a_class
                  [ "sticky"
                  ; "top-0"
-                 ; "z-50" "bg-white"
+                 ; "z-50"
+                 ; "bg-white"
                  ; "bg-transparent"
                  ; "flex"
                  ; "gap-1"
