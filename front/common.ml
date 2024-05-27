@@ -116,8 +116,11 @@ let layout content =
        [ nav
            ~a:
              [ a_class
-                 [ "bg-blue-500"
-                 ; "p-2"
+                 [ "sticky"
+                 ; "top-0"
+                 ; "z-50"
+                 ; "shadow-md"
+                 ; "shadow-slate-900/5"
                  ; "flex"
                  ; "gap-1"
                  ; "items-center"
